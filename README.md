@@ -1,0 +1,1 @@
+This repository demonstrates a simple example of a potential data race condition in Rust using mutable references. The original code lacks synchronization, leading to undefined behavior in a multithreaded environment. The solution provides a corrected version using a mutex to protect shared mutable data, ensuring thread safety.
